@@ -1,0 +1,40 @@
+:root {
+    --redBlood: #840E07;
+    --gray: gray;
+    --smooth: all .3s ease-in;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Exo",Arial, Helvetica;
+}
+header img{
+    width: 287px;
+    height: 109px;
+}
+
+header .nav-link {
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+}
+header button {
+    text-align: center;
+    color: #fff;
+    background-color: rgb(196, 31, 31);
+    padding: .8rem 2.5rem;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: var(--smooth);
+}
+
+header button:hover {
+  background-color: var(--redBlood);
+  transition: var(--smooth);
+}
+footer{
+  background-color: #fe8888;
+}
+
